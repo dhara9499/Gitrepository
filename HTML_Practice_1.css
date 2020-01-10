@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.outerdiv {
+  height: 97%;
+  width: 85%;
+  margin-left: 10%;
+}
+
+.imageouterdiv {
+  float: left;
+  margin-left: 2%;
+  border: 1px solid red;
+  margin-top: 7%;
+  padding: .1%;
+}
+.boxdiv {
+  width: 215px;
+  height: 315px;
+  background-color: lightslategrey;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  padding-top: 65%;
+}
+
+
+figcaption {
+  text-align: center;
+  opacity: 0.4;
+}
+
+.parastyle {
+  float: left;
+
+  width: 80%;
+  padding-top: 0.5%;
+  margin-left: 10%;
+  border-bottom: 1px solid gray;
+}
+
+p {
+  text-indent: 6%;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.6;
+  margin-left: 40px;
+}
