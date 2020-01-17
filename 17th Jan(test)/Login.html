@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Login Page:</title>
+  </head>
+
+  <body>
+    <center>
+      <div>
+        <form id="loginForm">
+          <label for="email">Email:</label>
+          <input type="email" name="email" /> <br /><br />
+          <label for="password">Password:</label>
+          <input type="password" name="password" /> <br /><br />
+          <input
+            type="button"
+            value="SUBMIT"
+            onclick="Login()"
+            id="btnLogin"
+          /><br /><br />
+          <p id="or">Or</p>
+          <input
+            type="button"
+            value="REGISTER NOW"
+            onclick="Registration()"
+            id="btnRegistration"
+          />
+        </form>
+      </div>
+    </center>
+  </body>
+  <script src="Login.js"></script>
+</html>

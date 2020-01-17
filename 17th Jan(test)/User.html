@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Page</title>
+  </head>
+  <body>
+    <form id="Subusers">
+      <h2>Add User</h2>
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="date" name="birthdate" placeholder="Birthdate" required />
+      <input type="button" value="Add User" onclick="addUser()"/>
+    </form>
+    <br /><br />
+    <h2>Sub User List</h2>
+    <fieldset id="resultTable"></fieldset>
+  </body>
+  <script src="User.js"></script>
+</html>

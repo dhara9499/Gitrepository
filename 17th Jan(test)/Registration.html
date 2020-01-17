@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Registration Page</title>
+  </head>
+
+  <body>
+    <form id="registrationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /> <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /> <br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br /><br />
+      <label for="confirmPassword">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+        onfocusout="checkPassword()"
+      />
+      <br /><br />
+      <label for="City">City:</label>
+      <input list="city" id="cities" name="cities" type="text" required />
+      <datalist id="city">
+        <option value="Jamnagar">Jamnagar</option>
+        <option value="Amritsar">Amritsar</option>
+        <option value="Mumbai">Mumbai</option>
+      </datalist>
+      <br /><br />
+      <label for="State">State:</label>
+      <input list="state" id="states" name="states" type="text" required />
+      <datalist id="state">
+        <option value="Gujrat">Gujrat</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Maharastra">Maharastra</option>
+      </datalist>
+      <br /><br />
+      <input
+        type="checkbox"
+        value="termsandconditions"
+        id="termsandconditions"
+      />Terms & conditions <br /><br />
+      <input
+        type="button"
+        value="Register"
+        id="btnRegister"
+        onclick="validate()"
+      />
+    </form>
+    <script src="Registration.js"></script>
+  </body>
+</html>
